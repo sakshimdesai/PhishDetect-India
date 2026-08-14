@@ -1,0 +1,32 @@
+{
+    "model_type": "RandomForestClassifier",
+    "feature_count": 20,
+    "features": [
+        "url_length",
+        "domain_length",
+        "subdomain_count",
+        "has_https",
+        "is_ip",
+        "special_char_count",
+        "digit_count",
+        "letter_count",
+        "dot_count",
+        "hyphen_count",
+        "underscore_count",
+        "slash_count",
+        "question_mark_count",
+        "equals_count",
+        "ampersand_count",
+        "at_symbol_count",
+        "percent_count",
+        "obfuscation_count",
+        "path_length",
+        "query_length"
+    ],
+    "target_mapping": {
+        "0": "Phishing",
+        "1": "Legitimate"
+    },
+    "random_state": 42,
+    "n_estimators": 200
+}
