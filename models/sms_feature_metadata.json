@@ -1,0 +1,34 @@
+{
+    "handcrafted_features": [
+        "text_length",
+        "word_count",
+        "urgency_keyword_count",
+        "sensitive_keyword_count",
+        "action_keyword_count",
+        "reward_lure_keyword_count",
+        "url_count",
+        "contains_url",
+        "shortened_url_count",
+        "exclamation_count",
+        "question_count",
+        "digit_count",
+        "uppercase_count",
+        "uppercase_ratio",
+        "currency_symbol_count",
+        "phone_number_count",
+        "has_sender"
+    ],
+    "handcrafted_feature_count": 17,
+    "tfidf_feature_count": 5945,
+    "total_feature_count": 5962,
+    "languages": [
+        "English",
+        "Hindi",
+        "Hinglish",
+        "Kannada",
+        "Konglish"
+    ],
+    "dataset_size": 2260,
+    "model": "Random Forest",
+    "random_state": 42
+}

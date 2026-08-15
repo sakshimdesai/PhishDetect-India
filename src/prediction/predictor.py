@@ -1,83 +1,24 @@
-import os
-import joblib
-import pandas as pd
-
-from src.features.url_features import extract_url_features
+from src.prediction.sms_predictor import predict_sms
+from src.prediction.url_predictor import predict_url
 
 
-# Project root
-BASE_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "../..")
-)
-
-MODEL_PATH = os.path.join(
-    BASE_DIR,
-    "models",
-    "url_random_forest.pkl"
-)
-
-METADATA_PATH = os.path.join(
-    BASE_DIR,
-    "models",
-    "url_feature_metadata.json"
-)
-
-
-# Load model
-model = joblib.load(MODEL_PATH)
-
-# Load feature metadata
-import json
-
-with open(METADATA_PATH, "r") as file:
-    metadata = json.load(file)
-
-FEATURE_COLUMNS = metadata["features"]
-
-
-def predict_url(url: str) -> dict:
+def predict(input_text: str, input_type: str) -> dict:
     """
-    Predict whether a URL is phishing or legitimate.
+    Unified prediction interface.
 
-    Returns:
-        {
-            "prediction": "Phishing" / "Legitimate",
-            "confidence": float,
-            "features": dict
-        }
+    input_type:
+        - "sms"
+        - "url"
     """
 
-    features = extract_url_features(url)
+    input_type = input_type.lower().strip()
 
-    feature_vector = pd.DataFrame(
-        [features]
-    )[FEATURE_COLUMNS]
+    if input_type == "sms":
+        return predict_sms(input_text)
 
-    prediction_value = model.predict(
-        feature_vector
-    )[0]
+    if input_type == "url":
+        return predict_url(input_text)
 
-    probabilities = model.predict_proba(
-        feature_vector
-    )[0]
-
-    phishing_index = list(
-        model.classes_
-    ).index(0)
-
-    phishing_probability = probabilities[
-        phishing_index
-    ]
-
-    if prediction_value == 0:
-        prediction = "Phishing"
-        confidence = phishing_probability
-    else:
-        prediction = "Legitimate"
-        confidence = 1 - phishing_probability
-
-    return {
-        "prediction": prediction,
-        "confidence": round(float(confidence), 4),
-        "features": features
-    }
+    raise ValueError(
+        "input_type must be either 'sms' or 'url'"
+    )

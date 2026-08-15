@@ -1,0 +1,61 @@
+﻿label,language,text
+Phishing,English,Congratulations! You have been selected for today's cash reward. Redeem it before midnight by confirming your details at https://reward-check.example/claim
+Phishing,English,You are the winner of a promotional prize. Your reward is ready for collection—verify your mobile number to receive it: https://promo-verify.example/winner
+Phishing,English,A bonus has been reserved for your account. Claim the cashback now to avoid cancellation: https://cashback-now.example/redeem
+Phishing,English,Your prize redemption window closes soon. Confirm your account information and collect the reward here: https://secure-reward.example/collect
+Phishing,English,Good news—you won a special reward in our customer promotion. Complete verification today to release the cash: https://reward-release.example/verify
+Phishing,English,Cashback notification: an extra reward is waiting for you. Use the link below to claim it before the offer expires: https://claim-bonus.example/start
+Phishing,Hindi,बधाई हो! आप आज के इनाम के विजेता चुने गए हैं। पुरस्कार पाने के लिए अभी अपनी जानकारी सत्यापित करें: https://inaam-check.example/claim
+Phishing,Hindi,"आपके लिए कैशबैक इनाम तैयार है। इसे रिडीम करने की समय सीमा आज खत्म हो रही है, अभी दावा करें: https://cashback-hindi.example/redeem"
+Phishing,Hindi,आपने एक खास पुरस्कार जीता है। इनाम लेने के लिए नीचे दिए लिंक पर जाकर अपना मोबाइल नंबर सत्यापित करें: https://reward-verify.example/collect
+Phishing,Hindi,आपके खाते में प्रचार बोनस सुरक्षित रखा गया है। रद्द होने से पहले इसे पाने के लिए विवरण भरें: https://bonus-release.example/verify
+Phishing,Hindi,आज के रिवॉर्ड के लिए आपका चयन हुआ है। नकद इनाम प्राप्त करने हेतु तुरंत दावा प्रक्रिया पूरी करें: https://cash-prize.example/claim
+Phishing,Hindi,आपका कैशबैक तैयार है और सीमित समय में ही मिलेगा। अभी लिंक खोलकर इनाम इकट्ठा करें: https://offer-collect.example/reward
+Phishing,Kannada,ಅಭಿನಂದನೆಗಳು! ಇಂದಿನ ಬಹುಮಾನಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ. ಬಹುಮಾನ ಪಡೆಯಲು ಈಗಲೇ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ: https://reward-kannada.example/claim
+Phishing,Kannada,ನೀವು ವಿಶೇಷ ಬಹುಮಾನ ಗೆದ್ದಿದ್ದೀರಿ. ಹಣವನ್ನು ಪಡೆಯಲು ಕೆಳಗಿನ ಲಿಂಕ್‌ನಲ್ಲಿ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಿ: https://prize-verify.example/collect
+Phishing,Kannada,ನಿಮ್ಮ ಖಾತೆಗೆ ಕ್ಯಾಶ್‌ಬ್ಯಾಕ್ ಜಮಾ ಮಾಡಲು ಸಿದ್ಧವಾಗಿದೆ. ಅವಧಿ ಮುಗಿಯುವ ಮೊದಲು ಇಲ್ಲಿ ಕ್ಲೇಮ್ ಮಾಡಿ: https://cashback-k.example/redeem
+Phishing,Kannada,ಪ್ರಚಾರದ ಬಹುಮಾನ ನಿಮ್ಮ ಹೆಸರಿಗೆ ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ. ರಿವಾರ್ಡ್ ಪಡೆಯಲು ತಕ್ಷಣ ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಸಲ್ಲಿಸಿ: https://promo-k.example/verify
+Phishing,Kannada,ನೀವು ಇಂದಿನ ರಿವಾರ್ಡ್ ವಿಜೇತರಾಗಿದ್ದೀರಿ. ಹಣದ ಬಹುಮಾನವನ್ನು ಸಂಗ್ರಹಿಸಲು ಈಗಲೇ ಈ ಲಿಂಕ್ ಬಳಸಿ: https://winner-k.example/collect
+Phishing,Kannada,"ಕ್ಯಾಶ್‌ಬ್ಯಾಕ್ ಬಹುಮಾನಕ್ಕೆ ಕೊನೆಯ ಅವಕಾಶ! ತಡವಾದರೆ ಆಫರ್ ರದ್ದಾಗುತ್ತದೆ, ಈಗಲೇ ಪಡೆಯಿರಿ: https://offer-k.example/claim"
+Phishing,Hinglish,Congratulations! Aap aaj ke reward ke winner ho. Prize redeem karne ke liye abhi apni details verify karo: https://reward-hinglish.example/verify
+Phishing,Hinglish,"Aapne special cashback jeeta hai. Cashback collect karne ka offer aaj expire ho raha hai, yahan claim karo: https://cash-hinglish.example/claim"
+Phishing,Hinglish,Aapke account ke liye promotional bonus reserve hua hai. Reward lene ke liye mobile number confirm karein: https://bonus-hinglish.example/collect
+Phishing,Hinglish,Jeeti hui prize amount release karne ke liye verification complete karo. Der hui toh reward cancel ho jayega: https://prize-hinglish.example/redeem
+Phishing,Hinglish,Aapka cashback ready hai aur limited time ke liye available hai. Neeche diye link se collect kar lo: https://cb-hinglish.example/start
+Phishing,Hinglish,Aaj ke lucky customers mein aap select hue hain. Cash reward claim karne se pehle account information submit karein: https://lucky-hinglish.example/verify
+Phishing,Konglish,Congratulations! Nimma reward ge winner aagiddira. Prize redeem maadoke ivattu details verify maadi: https://reward-konglish.example/verify
+Phishing,Konglish,"Nimage special cashback sigide. Cashback collect maadoke ee link open maadi, offer ivattu expire aagutte: https://cashback-konglish.example/collect"
+Phishing,Konglish,Nimma account-ge promotional bonus reserve aagide. Reward claim maadoke mobile number confirm maadi: https://bonus-konglish.example/claim
+Phishing,Konglish,Nivu reward geliddira! Cash prize release aagbekandre kelagina link alli verification complete maadi: https://prize-konglish.example/redeem
+Phishing,Konglish,"Cashback ready ide, late aadre offer cancel aagutte. Iga reward collect maadi: https://offer-konglish.example/start"
+Phishing,Konglish,Indina lucky customer list alli nimma hesaru ide. Cash reward padeyalu account details submit maadi: https://winner-konglish.example/verify
+Legitimate,English,Your loyalty points balance was updated after your latest purchase. View the new balance in the official app.
+Legitimate,English,Cashback has already been credited to your account. You can review the transaction in the official app.
+Legitimate,English,You earned 120 loyalty points on your recent order. Your points history has been updated.
+Legitimate,English,Your cashback is reflected in the official app under Rewards. No action is required.
+Legitimate,English,Reward history updated successfully following your recent transaction. Check the Rewards section in the app for details.
+Legitimate,English,A promotional reward has been added to your account. Open the official app to view the offer and its terms.
+Legitimate,Hindi,आपके हाल के लेन-देन के बाद लॉयल्टी पॉइंट्स का बैलेंस अपडेट हो गया है। जानकारी आधिकारिक ऐप में देखें।
+Legitimate,Hindi,कैशबैक आपके खाते में पहले ही जमा हो चुका है। इसकी जानकारी आधिकारिक ऐप में देख सकते हैं।
+Legitimate,Hindi,आपके हाल के ऑर्डर पर लॉयल्टी पॉइंट्स मिले हैं और रिवॉर्ड हिस्ट्री अपडेट कर दी गई है।
+Legitimate,Hindi,आपका कैशबैक आधिकारिक ऐप के Rewards सेक्शन में दिखाई दे रहा है। किसी कार्रवाई की जरूरत नहीं है।
+Legitimate,Hindi,आपके रिवॉर्ड पॉइंट्स का रिकॉर्ड अपडेट हो गया है। नए बैलेंस की जानकारी ऐप में उपलब्ध है।
+Legitimate,Hindi,एक प्रमोशनल रिवॉर्ड आपके खाते में जोड़ा गया है। ऑफर की शर्तें आधिकारिक ऐप में देखें।
+Legitimate,Kannada,ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಖರೀದಿಯ ನಂತರ ಲಾಯಲ್ಟಿ ಪಾಯಿಂಟ್‌ಗಳ ಬ್ಯಾಲೆನ್ಸ್ ಅಪ್‌ಡೇಟ್ ಆಗಿದೆ. ಅಧಿಕೃತ ಆ್ಯಪ್‌ನಲ್ಲಿ ನೋಡಿ.
+Legitimate,Kannada,ಕ್ಯಾಶ್‌ಬ್ಯಾಕ್ ಈಗಾಗಲೇ ನಿಮ್ಮ ಖಾತೆಗೆ ಜಮಾ ಆಗಿದೆ. ವ್ಯವಹರದ ವಿವರಗಳನ್ನು ಅಧಿಕೃತ ಆ್ಯಪ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.
+Legitimate,Kannada,ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಆರ್ಡರ್‌ಗೆ ರಿವಾರ್ಡ್ ಪಾಯಿಂಟ್‌ಗಳು ಲಭಿಸಿವೆ ಮತ್ತು ರಿವಾರ್ಡ್ ಹಿಸ್ಟರಿ ಅಪ್‌ಡೇಟ್ ಆಗಿದೆ.
+Legitimate,Kannada,ನಿಮ್ಮ ಕ್ಯಾಶ್‌ಬ್ಯಾಕ್ ಅಧಿಕೃತ ಆ್ಯಪ್‌ನ Rewards ವಿಭಾಗದಲ್ಲಿ ಕಾಣಿಸುತ್ತಿದೆ. ಯಾವುದೇ ಕ್ರಮ ಅಗತ್ಯವಿಲ್ಲ.
+Legitimate,Kannada,ನಿಮ್ಮ ಲಾಯಲ್ಟಿ ಪಾಯಿಂಟ್‌ಗಳ ದಾಖಲೆ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ. ಹೊಸ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ಆ್ಯಪ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.
+Legitimate,Kannada,ಪ್ರಚಾರದ ರಿವಾರ್ಡ್ ನಿಮ್ಮ ಖಾತೆಗೆ ಸೇರಿಸಲಾಗಿದೆ. ಆಫರ್ ವಿವರಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಅಧಿಕೃತ ಆ್ಯಪ್‌ನಲ್ಲಿ ನೋಡಿ.
+Legitimate,Hinglish,Aapke latest purchase ke baad loyalty points balance update ho gaya hai. Official app mein naya balance dekhein.
+Legitimate,Hinglish,Cashback already aapke account mein credit ho chuka hai. Details official app ke transaction section mein milengi.
+Legitimate,Hinglish,Recent order par aapko loyalty points mile hain aur reward history update ho gayi hai.
+Legitimate,Hinglish,Aapka cashback official app ke Rewards section mein reflect ho raha hai. Koi action required nahi hai.
+Legitimate,Hinglish,Aapke reward points ka updated record ab app mein available hai. Latest balance wahan check kar sakte hain.
+Legitimate,Hinglish,Ek promotional reward aapke account mein add hua hai. Offer ki details official app mein dekhein.
+Legitimate,Konglish,Nimma latest purchase aadmele loyalty points balance update aagide. Official app alli check maadi.
+Legitimate,Konglish,Cashback already nimma account-ge credit aagide. Transaction details official app alli nodabahudu.
+Legitimate,Konglish,Recent order-ge reward points sigive mattu reward history update aagide.
+Legitimate,Konglish,Nimma cashback official app-na Rewards section alli reflect aaguttide. Yavude action bekaagilla.
+Legitimate,Konglish,Loyalty points-na latest balance update aagide. Hosa points details app alli available ide.
+Legitimate,Konglish,Promotional reward nimma account-ge add aagide. Offer-na terms mattu details official app alli nodi.
