@@ -1,0 +1,117 @@
+:root {
+  /* Surfaces */
+  --bg: #080b12;
+  --bg-raised: #0d121c;
+  --bg-panel: #0f1522;
+  --bg-panel-hover: #121a29;
+  --hairline: rgba(148, 178, 214, 0.14);
+  --hairline-strong: rgba(148, 178, 214, 0.28);
+
+  /* Text */
+  --ink-1: #e8edf5;
+  --ink-2: #9fb0c6;
+  --ink-3: #5c6b82;
+
+  /* Accent — signal cyan, restrained */
+  --signal: #4fd1d9;
+  --signal-dim: rgba(79, 209, 217, 0.14);
+  --signal-border: rgba(79, 209, 217, 0.4);
+
+  /* Verdicts — the only places red/green are allowed */
+  --threat: #ef5b6b;
+  --threat-dim: rgba(239, 91, 107, 0.12);
+  --threat-border: rgba(239, 91, 107, 0.45);
+  --safe: #4ade9e;
+  --safe-dim: rgba(74, 222, 158, 0.12);
+  --safe-border: rgba(74, 222, 158, 0.45);
+
+  /* Type */
+  --display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --body: "Inter", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  color-scheme: dark;
+  font-family: var(--body);
+  color: var(--ink-1);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(79, 209, 217, 0.07), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 20%, rgba(79, 209, 217, 0.04), transparent 55%),
+    var(--bg);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--ink-1);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+button {
+  font-family: var(--body);
+}
+
+::selection {
+  background: var(--signal-dim);
+  color: var(--ink-1);
+}
+
+/* Visible keyboard focus everywhere — never suppressed */
+:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Utility: label / eyebrow style used across panels for the "lab instrument" feel */
+.lab-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, var(--bg-panel), var(--bg-raised));
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+}

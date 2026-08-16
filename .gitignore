@@ -1,4 +1,28 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+
+# Local database
+database/phishdetect.db
+
+# Frontend backup
+frontend_backup/
+
+# Model backups
+models/*_backup.pkl
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
